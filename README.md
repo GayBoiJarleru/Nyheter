@@ -1,6 +1,2 @@
-"# Nyheter" 
-"# Nyheter" 
-"# Nyheter" 
-"# Nyheter" 
-"# Nyheter" 
+# En mall till webbplatsen
 "# Nyheter" 

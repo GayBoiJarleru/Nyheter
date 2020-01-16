@@ -64,19 +64,29 @@ article {
   margin-left: 7%;
   margin-right: 7%;
   background-color: white;
-  border-radius:15px;
+  border-radius:25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding-bottom: 2px;
   margin-bottom: 7%;
-  top: 10%;
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ding-left: 3%;
+  padding-right: 3%;
   
 }
 
+
 .text {
   margin-top: 3%;
-  margin-right: 3%;
-  margin-left: 3%;
+ 
   font-family: 'Open Sans', sans-serif;
   font-family: 'Montserrat', sans-serif;
 }
@@ -117,6 +127,7 @@ body {
   min-width: 100%;
   max-height: 100%;
   min height: 100%;
+  
 }
 .bild2 {
   width: 100%;
@@ -158,7 +169,7 @@ a {
   width: 100%;
   z-index: 3;
   top: 0;
-  
+  height: 
 }
 
 .header ul {
@@ -175,6 +186,7 @@ a {
   padding: 20px 20px;
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
+  
 }
 
 .header li a:hover,
@@ -211,13 +223,16 @@ a {
   user-select: none;
 }
 
+
 .header .menu-icon .navicon {
   background: #333;
   display: block;
-  height: 2px;
   position: relative;
   transition: background .2s ease-out;
-  width: 18px;
+  width: 60px;
+  height: 5px;
+  border-radius: 25px;
+
 }
 
 .header .menu-icon .navicon:before,
@@ -225,19 +240,21 @@ a {
   background: #333;
   content: '';
   display: block;
-  height: 100%;
+  height: 5px;
   position: absolute;
   transition: all .2s ease-out;
   width: 100%;
-  
+  border-radius: 25px;
+
 }
 
 .header .menu-icon .navicon:before {
-  top: 5px;
+  top: 15px;
+
 }
 
 .header .menu-icon .navicon:after {
-  top: -5px;
+  top: -15px;
 }
 
 
@@ -251,7 +268,7 @@ a {
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
-  background: transparent;
+  background: transparent; 
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon:before {
@@ -266,30 +283,3 @@ a {
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
-
-@media (min-width: 48em) {
-  .header li {
-    float: left;
-  }
-  .header li a {
-    padding: 20px 30px;
-  }
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-  .header .menu-icon {
-    display: none;
-  }
-}
-the topnav (.icon) */
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-
